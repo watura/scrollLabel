@@ -16,8 +16,8 @@
 		41C181021664280C0047B48E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 41C181011664280C0047B48E /* Default.png */; };
 		41C181041664280C0047B48E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 41C181031664280C0047B48E /* Default@2x.png */; };
 		41C181061664280C0047B48E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 41C181051664280C0047B48E /* Default-568h@2x.png */; };
-		41C181091664280C0047B48E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41C181071664280C0047B48E /* MainStoryboard.storyboard */; };
 		41C1810C1664280C0047B48E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C1810B1664280C0047B48E /* ViewController.m */; };
+		41C181131664284F0047B48E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41C181121664284F0047B48E /* MainStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,9 +34,9 @@
 		41C181011664280C0047B48E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		41C181031664280C0047B48E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		41C181051664280C0047B48E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		41C181081664280C0047B48E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		41C1810A1664280C0047B48E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		41C1810B1664280C0047B48E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		41C181121664284F0047B48E /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +85,7 @@
 			children = (
 				41C180FE1664280C0047B48E /* AppDelegate.h */,
 				41C180FF1664280C0047B48E /* AppDelegate.m */,
-				41C181071664280C0047B48E /* MainStoryboard.storyboard */,
+				41C181121664284F0047B48E /* MainStoryboard.storyboard */,
 				41C1810A1664280C0047B48E /* ViewController.h */,
 				41C1810B1664280C0047B48E /* ViewController.m */,
 				41C180F61664280C0047B48E /* Supporting Files */,
@@ -162,7 +162,7 @@
 				41C181021664280C0047B48E /* Default.png in Resources */,
 				41C181041664280C0047B48E /* Default@2x.png in Resources */,
 				41C181061664280C0047B48E /* Default-568h@2x.png in Resources */,
-				41C181091664280C0047B48E /* MainStoryboard.storyboard in Resources */,
+				41C181131664284F0047B48E /* MainStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,14 +188,6 @@
 				41C180F91664280C0047B48E /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		41C181071664280C0047B48E /* MainStoryboard.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				41C181081664280C0047B48E /* en */,
-			);
-			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
